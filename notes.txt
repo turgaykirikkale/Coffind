@@ -1,0 +1,287 @@
+==> menüde bulunması gerekenler örnek
+
+ {
+      title: 'Latte',
+      description: 'BURAYA COFFE ACIKLAMASI GELECEK,
+      ingredients: ['Espresso', 'Steamed Milk'], (KAHVE ICERIGI)
+      image:
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg/509px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg', // kahve Image
+      id: 2,
+      size: [
+        {
+          title: store?.languageStore?.language?.localization?.small,
+          addPrice: 0,
+        },
+        {
+          title: store?.languageStore?.language?.localization?.middle,
+          addPrice: 5,
+        },
+        {
+          title: store?.languageStore?.language?.localization?.Big,
+          addPrice: 10,
+        },
+      ], //BOY SECENEKELERI, 
+      milk: [
+        {title: store?.languageStore?.language?.localization?.StandartMilk},
+        {title: store?.languageStore?.language?.localization?.Skimmedmilk},
+        {
+          title: store?.languageStore?.language?.localization?.LactoseFreeMilk,
+        },
+        {
+          title: store?.languageStore?.language?.localization?.AlmondMilk,
+        },
+      ], // SÜT SECENEKLERI
+      shops: [
+        {
+          name: 'Line Coffe',
+          price: 29,
+          image: require('../../Assets/CoffeShopImages/cafeDeFlore.jpeg'),
+        },
+        {
+          name: 'Bardak Coffe',
+          price: 32,
+          image: require('../../Assets/CoffeShopImages/leepoque.jpeg'),
+        },
+        {
+          name: 'Simento Coffe',
+          price: 30,
+          image: require('../../Assets/CoffeShopImages/lePetit.jpeg'),
+        },
+        {
+          name: 'Saudade Coffe',
+          price: 28,
+          image: require('../../Assets/CoffeShopImages/londonCoffeShop3.jpeg'),
+        },
+        {
+          name: 'Water Coffe',
+          price: 36,
+          image: require('../../Assets/CoffeShopImages/Mourgane.jpeg'),
+        },
+        {
+          name: 'Casca Coffe',
+          price: 26,
+          image: require('../../Assets/CoffeShopImages/kolnRoyal.jpeg'),
+        },
+      ], //LATTE URUNUNU SATAN KAFELER.
+    },
+
+
+COFFE SHOP DATA,
+
+    {
+      name: 'Line Coffe', // COFFE ADI
+      image: require('../../Assets/CoffeShopImages/cafeDeFlore.jpeg'), COFFE IMAGE
+      address: null, //ADRES KORRDINATLARI
+      star: 2, //RANDOM START
+      menü: [
+        {
+          title: 'Black', //MENUSUNDE BULUNAN URUN ADI
+          description:
+            store?.languageStore?.language?.localization?.blackCoffeDesc, //URUN ACIKLAMASI
+          ingredients: ['Coffee'], //URUN ICERIGI
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/640px-A_small_cup_of_coffee.JPG', //URUN IMAGE
+          id: 1, //URUN ID
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ], //URUN SIZE SECENEKLERI
+          milk: [], //URUN SUT ICERIGI
+        },
+        {
+          title: 'Latte',
+          description: store?.languageStore?.language?.localization?.latteDesc,
+          ingredients: ['Espresso', 'Steamed Milk'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg/509px-Latte_at_Doppio_Ristretto_Chiang_Mai_01.jpg',
+          id: 2,
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [
+            {title: store?.languageStore?.language?.localization?.StandartMilk},
+            {title: store?.languageStore?.language?.localization?.Skimmedmilk},
+            {
+              title:
+                store?.languageStore?.language?.localization?.LactoseFreeMilk,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.AlmondMilk,
+            },
+          ],
+        },
+        {
+          title: 'Cappuccino',
+          description:
+            store?.languageStore?.language?.localization?.cappuccinoDes,
+          ingredients: ['Espresso', 'Steamed Milk', 'Foam'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg',
+          id: 3,
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [
+            {title: store?.languageStore?.language?.localization?.StandartMilk},
+            {title: store?.languageStore?.language?.localization?.Skimmedmilk},
+            {
+              title:
+                store?.languageStore?.language?.localization?.LactoseFreeMilk,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.AlmondMilk,
+            },
+          ],
+        },
+        {
+          title: 'Americano',
+          description:
+            store?.languageStore?.language?.localization?.americanoDesc,
+          ingredients: ['Espresso', 'Hot Water'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg/1280px-Hokitika_Cheese_and_Deli%2C_Hokitika_%283526706594%29.jpg',
+          id: 4,
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [],
+        },
+        {
+          title: 'Espresso',
+          description:
+            store?.languageStore?.language?.localization?.espressoDesc,
+          ingredients: ['1oz Espresso'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg',
+          id: 5,
+
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [],
+        },
+        {
+          title: 'Cortado',
+          description:
+            store?.languageStore?.language?.localization?.cortadoDesc,
+          ingredients: ['1oz Espresso', '1oz Steamed Milk'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/1/16/Caf%C3%A9Cortado%28Tallat%29.jpg',
+          id: 7,
+
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [
+            {title: store?.languageStore?.language?.localization?.StandartMilk},
+            {title: store?.languageStore?.language?.localization?.Skimmedmilk},
+            {
+              title:
+                store?.languageStore?.language?.localization?.LactoseFreeMilk,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.AlmondMilk,
+            },
+          ],
+        },
+        {
+          title: 'Galão',
+          description: store?.languageStore?.language?.localization?.galaoDesc,
+          ingredients: ['Espresso', 'Foamed milk'],
+          image:
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gal%C3%A3o.jpg/1280px-Gal%C3%A3o.jpg',
+          id: 9,
+
+          size: [
+            {
+              title: store?.languageStore?.language?.localization?.small,
+              addPrice: 0,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.middle,
+              addPrice: 5,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.Big,
+              addPrice: 10,
+            },
+          ],
+          milk: [
+            {title: store?.languageStore?.language?.localization?.StandartMilk},
+            {title: store?.languageStore?.language?.localization?.Skimmedmilk},
+            {
+              title:
+                store?.languageStore?.language?.localization?.LactoseFreeMilk,
+            },
+            {
+              title: store?.languageStore?.language?.localization?.AlmondMilk,
+            },
+          ],
+        },
+      ],
+    },

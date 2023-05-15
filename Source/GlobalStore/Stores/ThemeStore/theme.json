@@ -1,0 +1,48 @@
+[
+  {
+    "Name": "Decent",
+    "Symbol": "BurayaSymBolLocationGelecek",
+    "colors": {
+      "gradientBottom": "#e0e0e0",
+      "gradientMiddle": "#fcfcfc",
+      "borderColor": "#a59f9f",
+      "shadowColor": "black",
+      "textColor": "#050404",
+      "logoutButtonBackgroundColor": "#ef5656",
+      "logoutButtonTextColor": "white",
+      "menuItemContainerBackroundColor": "white",
+      "menuItemContainerBorderColor": "#E3E2E2"
+    }
+  },
+
+  {
+    "Name": "Royal",
+    "Symbol": "BurayaSymBolLocationGelecek",
+    "colors": {
+      "gradientBottom": "#0c121c",
+      "gradientMiddle": "#335272",
+      "borderColor": "#a59f9f",
+      "shadowColor": "white",
+      "textColor": "#fffcfc",
+      "logoutButtonBackgroundColor": "#c14343",
+      "logoutButtonTextColor": "white",
+      "menuItemContainerBackroundColor": "#7382a0",
+      "menuItemContainerBorderColor": "#E3E2E2"
+    }
+  },
+  {
+    "Name": "OceanDeep",
+    "Symbol": "BurayaSymBolLocationGelecek",
+    "colors": {
+      "gradientBottom": "#192f6a",
+      "gradientMiddle": "#476cb7",
+      "borderColor": "#a59f9f",
+      "shadowColor": "white",
+      "textColor": "#f4f4f4",
+      "logoutButtonBackgroundColor": "#db3d3d",
+      "logoutButtonTextColor": "white",
+      "menuItemContainerBackroundColor": "#9eb1d8",
+      "menuItemContainerBorderColor": "#E3E2E2"
+    }
+  }
+]
